@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/timer_start" android:title=" 开始计时 " />
+        <item android:id="@+id/timer_stop" android:title=" 终止计时 " />
+        <item android:id="@+id/timer_reset" android:title=" 清零 " />
+
+</menu>

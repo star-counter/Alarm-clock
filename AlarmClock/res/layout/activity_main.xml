@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/test_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" 
+        android:text="@string/app_name"
+        android:gravity="center_horizontal|center_vertical"/>
+    
+   	<View
+		android:layout_width="match_parent"
+		android:layout_height="1.5dip"
+		android:background="@android:color/white" />
+
+    <ListView
+        android:id="@+id/lv_clocks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3" >
+    </ListView>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+	    android:orientation="horizontal" 
+        android:layout_weight="0.7" >
+
+        <ImageButton
+            android:id="@+id/ib_add"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:background="@drawable/oval_button_selector"
+            android:layout_marginRight="5dip"
+            android:textSize="30sp"
+            android:src="@drawable/add_alarm" 
+            android:contentDescription="@string/action_add" />
+
+        <ImageButton
+
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/oval_button_selector"
+            android:src="@drawable/time"
+            android:textSize="30sp"
+            android:id="@+id/ib_time" />
+        <ImageButton
+
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/oval_button_selector"
+            android:src="@drawable/calendar"
+            android:textSize="30sp"
+            android:id="@+id/ib_calender" />
+
+
+        <ImageButton
+
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/oval_button_selector"
+            android:src="@drawable/timecount"
+            android:id="@+id/ib_timecount"
+            android:textSize="30sp"
+             />
+        <ImageButton
+            android:id="@+id/ib_setting"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:background="@drawable/oval_button_selector"
+            android:layout_marginLeft="5dip"
+            android:src="@drawable/setting"
+            android:contentDescription="@string/action_settings" />
+
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width= "fill_parent"
+android:layout_height = "fill_parent"
+android:gravity = "center_horizontal"
+    android:background="@drawable/back"
+    >
+<Chronometer
+    android:id ="@+id/chronometer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:format="%s"
+    android:textSize="80px"
+    android:textColor="#00FF00"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始计时"
+        android:id="@+id/bt_startcount"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止计时"
+        android:id="@+id/bt_stopcount"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清零"
+        android:id="@+id/bt_reset"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout >

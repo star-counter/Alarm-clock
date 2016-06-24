@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\AlarmClock\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cb6883d96005bc85b3e868f204507ea5b4fa9bbf">
+        <dex dex="F:\AlarmClock\build\intermediates\pre-dexed\debug\android-support-v4-77967d1e3330f8746fc99704a682d44c5388e9f3.jar" />
+    </item>
+    <item
+        jar="F:\AlarmClock\libs\open_sdk_r4889.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3b2f3672b0f55b793684f6bef9df78776b15449e">
+        <dex dex="F:\AlarmClock\build\intermediates\pre-dexed\debug\open_sdk_r4889-8cc5e60dfb51cbc0b5b832ea0c3557f84b2aa8a6.jar" />
+    </item>
+
+</items>
